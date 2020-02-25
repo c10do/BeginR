@@ -1,0 +1,163 @@
+---
+title: "BeginR"
+subtitle: "Introduction to R"
+author: "Sitendu Goswami & Nilanjan Chatterjee"
+institute: "Wildlife Institute of India"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+self_contained:  yes
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      titleSlideClass: ["center", "top", "BeginR"]
+      seal: false
+      theme: united
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: true
+      logo: Rlogo.png
+      
+---
+class: center
+
+## BeginR workshop 2020
+
+![](Rlogo.png)
+![](Rstudiologo.png)
+---
+
+## Instructors
+### **Nilanjan** - nilanjanchatterjee7@gmail.com
+### Nehru - nehrumcc@gmail.com
+### Shivam - shivam.shrotriya@gmail.com
+### Mansi - mansi.2303@gmail.com
+### **Sitendu** - sitendugoswami@gmail.com
+
+---
+class: top
+
+## Why do you need R?
+- The future is in data science.
+<br><br>
+- Knowing R is a necessity.
+<br><br>
+- Improve your data handling skills.
+<br><br>
+- Teach and help others.
+<br><br>
+- Knowing R can help you learn other languages like Python.
+---
+class: top, center
+==
+## R as a statistical tool and its advantages
+ Animated plots are a possibility in R ![GDP change of continents since 1970 ](gapminder.gif)
+
+---
+class: center, top
+## R fits with your research methodology
+![](Methodology.png)
+???
+Research methodology should be optimized and streamlined
+---
+
+class: top, center
+## R compared to Excel and IBM SPSS
+
+**R**| **Excel** | **SPSS**
+--- | --- | ---
+**free**| **proprietary**| **proprietary** 
+*syntax based*| primarily GUI-based |primarily GUI-based
+**16000 packages and counting**| **unknown** | **unknown**
+*customizable*|not customizable| not customizable
+**Reproducible research**| not possible| limited
+**unlimited graphing options**| very limited| very limited
+*no warranty*|warranty available| warranty available
+**excellent community support**| limited support| manuals available
+**read and copy code**| not possible|not possible
+*steep learning curve*|**easy to use**|**easy to install and use**
+**platform independent**|dependent| dependent
+
+---
+class: left
+## R for spatial analysis
+```{r}
+library(leaflet)
+leaflet() %>% addTiles() %>% setView(88.33, 22.5085, zoom = 17)
+```
+
+---
+class: left
+## R for Ecological modeling
+![](habitat.jpg)
+
+---
+class: left
+## Social network analysis
+![](SNA.jpg)
+
+---
+class: left
+## R for Population genomics
+![](population.png)
+---
+
+class: left
+## Shortcomings of R
+
+- A steep learning curve great community support.
+<br><br>
+- Unforgiving syntax | R studio helps out with autocomplete and troubleshooting.
+<br><br>
+- Tidyverse and base R | We shall discuss about the best of both worlds.
+<br><br>
+- Over 600 functions to remember | annotate your code.
+<br><br>
+???
+yes R does have a steep learning curve, but if you can develop a good workflow, things will be much easier for you
+
+---
+
+## Deliverables of the BeginR workshop
+
+- Basics of R syntax.
+<br><br>
+- How to use Rstudio to your advantage.
+<br><br>
+- Troubleshooting tips.
+<br><br>
+- Data types, data importing.
+<br><br>
+- Data wrangling or munging.
+<br><br>
+- Visualizing your data.
+<br><br>
+- Develop basic proficiency with R.
+<br><br>
+---
+
+## The course outline
+- R setup today(25/02/20)
+<br><br>
+- Data import and data structures tomorrow (26/02/20)
+<br><br>
+- Data wrangling with tidyverse(27/02/20)
+<br><br>
+- Visualizing with ggplot (28/02/20)
+
+---
+## R setup the fundamentals
+- R version 3.6.2
+<br><br>
+- R studio
+<br><br>
+- Packages required ("tidyverse", "magrittr", "gapminder")
+<br><br>
+![](lotr.gif)
+---
+##Lets start
+![](lotr.gif)
+---
+
+
+
+
